@@ -1,0 +1,66 @@
+Certainly! Here's the documentation for the provided code in HTML format:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Documentation</title>
+</head>
+<body>
+  <h1>Code Documentation</h1>
+
+  <h2>Description</h2>
+  <p>This code reads multiple datasets from different devices, adds a time column to each dataset, and visualizes the voltage-time characteristics of the datasets on a single plot using the <code>ggplot2</code> library.</p>
+
+  <h2>Instructions to Run the Code</h2>
+
+  <h3>Step 1: Install Required Packages</h3>
+  <p>Make sure you have the following packages installed:</p>
+  <ul>
+    <li>data.table</li>
+    <li>ggplot2</li>
+  </ul>
+  <p>You can install these packages using the following commands:</p>
+  <pre><code>install.packages("data.table")
+install.packages("ggplot2")</code></pre>
+
+  <h3>Step 2: Prepare the Datasets</h3>
+  <p>Ensure that you have the CSV files ready for each device and update the file paths accordingly in the code.</p>
+
+  <h3>Step 3: Run the Code</h3>
+  <ul>
+    <li>Open an R environment or RStudio.</li>
+    <li>Load the required libraries:</li>
+  </ul>
+  <pre><code>library("data.table")
+library("ggplot2")</code></pre>
+  <p>Copy and paste the code into the R environment or RStudio.</p>
+
+  <h3>Step 4: Modify Parameters (Optional)</h3>
+  <p>Modify the following parameters in the code if needed:</p>
+  <ul>
+    <li>The period in the time calculation loop (currently set to 0.01).</li>
+    <li>Column names for each dataset (change the <code>Voltage</code> and <code>Time_s</code> names in each section to desired names).</li>
+    <li>Column names for each device (change <code>V</code>, <code>T</code>, <code>V1</code>, <code>T1</code> to desired names).</li>
+  </ul>
+
+  <h3>Step 5: Run the Code</h3>
+  <p>Run the code line by line or execute the entire code block.</p>
+
+  <h3>Step 6: Visualize the Data</h3>
+  <p>After running the code, you will see the following:</p>
+  <ul>
+    <li>The first 5 rows of each dataset to ensure the column names are correct.</li>
+    <li>A plot showing the voltage-time characteristics of the datasets from different devices, with each device represented by a different color.</li>
+  </ul>
+
+  <h2>Note</h2>
+  <ul>
+    <li>Ensure that the CSV files exist in the specified file paths.</li>
+    <li>Verify that the column names in each dataset match the column names used in the code.</li>
+  </ul>
+</body>
+</html>
+```
+
+You can save the above HTML code to an HTML file (e.g., `code_documentation.html`) and open it in a web browser to view the documentation.
